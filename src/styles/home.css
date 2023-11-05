@@ -1,0 +1,147 @@
+.contenedor {
+  height: auto;
+ 
+}
+
+.seccion-uno {
+  background-image: url(https://www.itconsultors.com/images/blog/cabecera-1024x576_x1x.jpg_667465578.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  
+  
+}
+.seccion-one{
+  height: 90vh;
+  font-weight: bold;
+  color: white;
+}
+
+.seccion-two {
+  height: auto;
+  
+  background-size: cover;
+  color: white;
+}
+
+.col-one {
+  color: white;
+}
+
+.text-edit {
+  color: #ebf4f6;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.text-inicio {
+  color: #53afdf ;
+}
+
+.title-one{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 7vh;
+}
+
+.seccion-three {
+  background-color: #303030;
+  height: auto;
+}
+
+.seccion-four {
+  background-color: #303030;
+  height: auto;
+}
+
+.seccion-five {
+  background-color: black ;
+}
+
+.seccion-six {
+  background-color: #303030;
+}
+
+.seccion-seven {
+  background-color: #303030;
+}
+
+
+
+.title-two {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55px;
+}
+
+.title-three {
+  color: white;
+  font-size: 70px;
+  font-family:'Roboto Condensed' ;
+}
+
+.title-four {
+  color: white;
+  font-size: 70px;
+  font-family:'Roboto Condensed' ;
+}
+.title-five {
+  color: white;
+  font-family:'Roboto Condensed' ;
+  font-size: 10vh;
+}
+
+
+
+.habilities {
+  color: #53afdf;
+  font-family: 'Prompt', sans-serif;
+}
+
+.habilities-about{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif ;
+}
+
+.about-me {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.custom-card {
+  background-color: black;
+  color: white;
+  font-family:'Roboto Condensed', sans-serif;
+
+}
+
+.disponible {
+  color: #00ff19; 
+  text-shadow: 2px 2px 4px #00FF00; 
+}
+
+.contacto-text {
+  color: white;
+  font-family:'Nunito Sans', sans-serif; ;
+}
+
+.footer-bg {
+  background-color: black;
+}
+
+.footer-items {
+  color: white;
+  font-family:'Nunito Sans', sans-serif; 
+  font-weight: bold;
+  
+}
+
+.footer-titles {
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+
+
