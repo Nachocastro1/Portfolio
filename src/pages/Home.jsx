@@ -39,7 +39,7 @@ function Home() {
           <Col md={12} xs={6} className='mb-3 mx-3 text-edit my-5'> <h2>Hola! Soy Nacho Castro😉</h2></Col>
           <Col className='mb-3 mx-3 title-one m5-5 d-flex align-items-end'> <h1>FullStack Web Developer</h1></Col>
           <Col className='mb-3 mx-3 text-edit my-5 d-flex align-items-end'> <h4>Mi nombre es Nacho acá conoceras un poco mi historia en el mundo de la programacion y cuales son los proyectos en los que participé. Tambien Obtendras informacion sobre como contactarme.</h4></Col>
-          <Col className='mb-3 mx-3'><Button variant='outline-warning'>Contrátame</Button></Col>
+          <Col className='mb-3 mx-3'><Button variant='outline-warning' href='https://www.linkedin.com/in/nachocastrodev/'>Contrátame</Button></Col>
         </Col>
         <Col className='mt-1 p-5  d-flex justify-content-center align-items-center'>
           <Button variant="warning" className='mx-5 btn-custom' size="lg" href='#proyectos'>Ver mis proyectos</Button>
@@ -54,7 +54,7 @@ function Home() {
           <Col xs={12} md={6} className='seccion-four '><Image src="../../public/imagenes/fondo2.png" width={500} height={300}></Image></Col>
           <Col xs={12} md={6} className='seccion-three'>
             <Row><Col><h2 className='p-3 title-two mt-5'>ACERCA DE MÍ 🔥</h2></Col></Row>
-            <Row><Col><h4 className='p-3 about-me' id='about-me'>Desarrollador Web FullStack Developer. Formado en habilidades en HTML, CSS, Bootstrap, React, Node.js, y MongoDB. Además, soy competente en el uso de GitHub para la gestión de codigo en distintos proyectos. Mi deber es crear soluciones web atractivas y funcionales. Siempre buscando aportar valor creando soluciones web atractivas y funcionales. Siempre en busca de desafios. Si te interesa, por favor, <a href="#" className='text-white'>contrátame</a>. </h4></Col></Row>
+            <Row><Col><h4 className='p-3 about-me' id='about-me'>Desarrollador Web FullStack Developer. Formado en habilidades en HTML, CSS, Bootstrap, React, Node.js, y MongoDB. Además, soy competente en el uso de GitHub para la gestión de codigo en distintos proyectos. Mi deber es crear soluciones web atractivas y funcionales. Siempre buscando aportar valor creando soluciones web atractivas y funcionales. Siempre en busca de desafios. Si te interesa, por favor, <a href="https://www.linkedin.com/in/nachocastrodev/" className='text-white'>contrátame</a>. </h4></Col></Row>
           </Col>
         </Row>
       </Container>
