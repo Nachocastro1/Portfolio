@@ -23,8 +23,6 @@ const proyectos = [
 
 ];
 
-
-
 <Projects proyectos={proyectos} />
 
 function Home() {
@@ -50,7 +48,7 @@ function Home() {
 
       <Container fluid className='w-100 px-0'>
         <Row className=''>
-          <Col xs={12} md={6} className='seccion-four '><Image src="/../../public/imagenes/fondo2.png" width={500} height={300}></Image></Col>
+          <Col xs={12} md={6} className='seccion-four '><Image src="/imagenes/fondo2.png" width={500} height={300}></Image></Col>
           <Col xs={12} md={6} className='seccion-three'>
             <Row><Col><h2 className='p-3 title-two mt-5'>ACERCA DE MÍ 🔥</h2></Col></Row>
             <Row><Col><h4 className='p-3 about-me' id='about-me'>Desarrollador Web FullStack Developer. Formado en habilidades en HTML, CSS, Bootstrap, React, Node.js, y MongoDB. Además, soy competente en el uso de GitHub para la gestión de codigo en distintos proyectos. Mi deber es crear soluciones web atractivas y funcionales. Siempre buscando aportar valor creando soluciones web atractivas y funcionales. Siempre en busca de desafios. Si te interesa, por favor, <a href="https://www.linkedin.com/in/nachocastrodev/" className='text-white'>contrátame</a>. </h4></Col></Row>
