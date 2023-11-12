@@ -1,12 +1,11 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import '../styles/home.css';
 import { Button } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
-import Projects from '../components/projects';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Projects from '../components/projects';
+import '../styles/home.css';
 
 const proyectos = [
   {
@@ -31,9 +30,9 @@ const proyectos = [
 function Home() {
   return (
     //  seccion 1
-    
-    <Container fluid="true" className='mt-5 w-100' id="home" >
-      <Row  fluid="true" className='seccion-uno d-flex'>
+
+    <Container fluid="true" className='mt-5 w-100'  >
+      <Row fluid="true" className='seccion-uno d-flex' id="home">
         <Col md={6} sm={12} xs={12} fluid className='col-xs-12 text-inicio mt-1'>
 
           <Col md={12} xs={6} className='mb-3 mx-3 text-edit my-5'> <h2>Hola! Soy Nacho Castro😉</h2></Col>
@@ -100,7 +99,7 @@ function Home() {
         <Row className='seccion-seven p-5' id="contacto">
           <Col>
             <Row><Col><h2 className='my-5 text-white title-five'>Contáctame😉</h2></Col></Row>
-            <Row><Col><h4 className='disponible'><i class="fa-solid fa-circle fa-sm"></i>  Actualmente estoy disponible para trabajar</h4></Col></Row>
+            <Row><Col><h4 className='disponible'><i className="fa-solid fa-circle fa-sm"></i>  Actualmente estoy disponible para trabajar</h4></Col></Row>
             <Row><Col><h5 className='contacto-text'>Siempre estoy buscando nuevas oportunidades para ayudarlo a desarrollar su producto.</h5></Col></Row>
             <Row><Col><h5 className='contacto-text'>No dude en ponerse en contacto conmigo. Estoy esperando tu mensaje.</h5></Col></Row>
             <Row>
