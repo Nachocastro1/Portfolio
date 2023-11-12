@@ -12,7 +12,7 @@ const proyectos = [
     id: 1,
     title: 'PataSana Web',
     description: 'Proyecto final realizado en cursado de RollingCode School.',
-    imageSrc: '/../../public/imagenes/proyecto1.jpg',
+    imageSrc: '/imagenes/proyecto1.jpg',
     url: 'https://pata-sana-web-git-dev-juandurso.vercel.app/home',
     readme: 'Tecnologias Utilizadas: FrontEnd: HTML, CSS, Javascript, React-JS. BackEnd: Express, Node.js. Base de datos: MongoDB. Principales Funcionalidades: Gestion de mascotas, Programacion de turnos, Historial Médico, Perfil Veterinario.',
   },
