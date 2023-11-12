@@ -21,7 +21,7 @@ function NavbarComponent() {
               <Nav.Link as={Link} to="/Home" href='#home' className='text-white me-5'><h2 className='navlinks'>Home</h2></Nav.Link>
               <Nav.Link href="#about-me" className='text-white me-5'><h2 className='navlinks'>Sobre mí</h2></Nav.Link>
               <Nav.Link href="#habilidades" className='text-white me-5' ><h2 className='navlinks'>Habilidades</h2></Nav.Link>
-              <Nav.Link href="#link" className='text-white me-5'><h2 className='navlinks'>Contacto</h2></Nav.Link>
+              <Nav.Link href="#contacto" className='text-white me-5'><h2 className='navlinks'>Contacto</h2></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
