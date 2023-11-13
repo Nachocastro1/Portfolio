@@ -1,19 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import '../styles/home.css';
 import { Button } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
-import Projects from '../components/projects';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Projects from '../components/projects';
+import '../styles/home.css';
 
 const proyectos = [
   {
     id: 1,
     title: 'PataSana Web',
     description: 'Proyecto final realizado en cursado de RollingCode School.',
-    imageSrc: '/../../public/imagenes/proyecto1.jpg',
+    imageSrc: '/imagenes/proyecto1.jpg',
     url: 'https://pata-sana-web-git-dev-juandurso.vercel.app/home',
     readme: 'Tecnologias Utilizadas: FrontEnd: HTML, CSS, Javascript, React-JS. BackEnd: Express, Node.js. Base de datos: MongoDB. Principales Funcionalidades: Gestion de mascotas, Programacion de turnos, Historial Médico, Perfil Veterinario.',
   },
@@ -24,16 +23,14 @@ const proyectos = [
 
 ];
 
-
-
 <Projects proyectos={proyectos} />
 
 function Home() {
   return (
     //  seccion 1
-    
-    <Container fluid="true" className='mt-5 w-100' id="home" >
-      <Row  fluid="true" className='seccion-uno d-flex'>
+
+    <Container fluid="true" className='mt-5 w-100'  >
+      <Row fluid="true" className='seccion-uno d-flex' id="home">
         <Col md={6} sm={12} xs={12} fluid className='col-xs-12 text-inicio mt-1'>
 
           <Col md={12} xs={6} className='mb-3 mx-3 text-edit my-5'> <h2>Hola! Soy Nacho Castro😉</h2></Col>
@@ -51,7 +48,7 @@ function Home() {
 
       <Container fluid className='w-100 px-0'>
         <Row className=''>
-          <Col xs={12} md={6} className='seccion-four '><Image src="/../../public/imagenes/fondo2.png" width={500} height={300}></Image></Col>
+          <Col xs={12} md={6} className='seccion-four '><Image src="/imagenes/fondo2.png" width={500} height={300}></Image></Col>
           <Col xs={12} md={6} className='seccion-three'>
             <Row><Col><h2 className='p-3 title-two mt-5'>ACERCA DE MÍ 🔥</h2></Col></Row>
             <Row><Col><h4 className='p-3 about-me' id='about-me'>Desarrollador Web FullStack Developer. Formado en habilidades en HTML, CSS, Bootstrap, React, Node.js, y MongoDB. Además, soy competente en el uso de GitHub para la gestión de codigo en distintos proyectos. Mi deber es crear soluciones web atractivas y funcionales. Siempre buscando aportar valor creando soluciones web atractivas y funcionales. Siempre en busca de desafios. Si te interesa, por favor, <a href="https://www.linkedin.com/in/nachocastrodev/" className='text-white'>contrátame</a>. </h4></Col></Row>
@@ -100,7 +97,7 @@ function Home() {
         <Row className='seccion-seven p-5' id="contacto">
           <Col>
             <Row><Col><h2 className='my-5 text-white title-five'>Contáctame😉</h2></Col></Row>
-            <Row><Col><h4 className='disponible'><i class="fa-solid fa-circle fa-sm"></i>  Actualmente estoy disponible para trabajar</h4></Col></Row>
+            <Row><Col><h4 className='disponible'><i className="fa-solid fa-circle fa-sm"></i>  Actualmente estoy disponible para trabajar</h4></Col></Row>
             <Row><Col><h5 className='contacto-text'>Siempre estoy buscando nuevas oportunidades para ayudarlo a desarrollar su producto.</h5></Col></Row>
             <Row><Col><h5 className='contacto-text'>No dude en ponerse en contacto conmigo. Estoy esperando tu mensaje.</h5></Col></Row>
             <Row>
