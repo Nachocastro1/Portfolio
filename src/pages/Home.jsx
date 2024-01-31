@@ -17,6 +17,15 @@ const proyectos = [
     readme: 'Tecnologias Utilizadas: FrontEnd: HTML, CSS, Javascript, React-JS. BackEnd: Express, Node.js. Base de datos: MongoDB. Principales Funcionalidades: Gestion de mascotas, Programacion de turnos, Historial Médico, Perfil Veterinario.',
   },
 
+  {
+    id: 1,
+    title: 'Pokedex',
+    description: 'Pokedex utilizando Vite + React UseContext',
+    imageSrc: '/imagenes/proyecto2.jpg',
+    url: 'https://pokedex-taupe-ten.vercel.app/',
+    readme: 'Tecnologias Utilizadas: FrontEnd: HTML, CSS, Javascript, React-JS, API (Pokeapi)',
+  },
+
 
 
 
