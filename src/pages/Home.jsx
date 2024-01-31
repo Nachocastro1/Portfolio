@@ -18,10 +18,10 @@ const proyectos = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: 'Pokedex',
     description: 'Pokedex utilizando Vite + React UseContext',
-    imageSrc: '/imagenes/proyecto2.jpg',
+    imageSrc: '/imagenes/proyecto2.jpeg',
     url: 'https://pokedex-taupe-ten.vercel.app/',
     readme: 'Tecnologias Utilizadas: FrontEnd: HTML, CSS, Javascript, React-JS, API (Pokeapi)',
   },
